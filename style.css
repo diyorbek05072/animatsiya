@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+span, a, label{
+    display: inline-block;
+}
+
+
+.katta{
+    min-height: 100dvh;
+    padding: 50px;
+    padding-bottom:0 ;
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: end;
+    justify-content: center;
+}
+
+.tepa{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    box-shadow: inset -130px -130px 110px black;
+    animation: yur 1s linear alternate infinite;
+}
+
+@keyframes yur {
+    100%{
+        transform: translateY(-330px);
+    }
+}
+
+.past{
+    width: 270px;
+    height: 60px;
+    background-color: black;
+    margin-bottom: 50px; 
+    border-radius: 50%;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.423), white);
+    animation: soya 1s linear alternate infinite;
+}
+
+@keyframes soya {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.01);
+    }
+}
